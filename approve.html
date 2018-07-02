@@ -10,15 +10,16 @@
 
   <form>
 
-    <input type="text" placeholder="Search" name="search">
+    <input type="text" size=35 placeholder="Search" name="search">
 
 
 
     <table width="100%">
        <tr>
           <th>Employee</th>
-          <th>Machine</th> 
+          <th>Complaint/Request</th> 
           <th>Action</th>
+          <th>Status</th>
        </tr>
 
        <tr>
@@ -26,6 +27,9 @@
          <td>Computer</td>
          <td><input type="radio" name="approve" value="approve">Approve
          <input type="radio" name="approve" value="reject">Reject</td>
+         <td><input type="radio" name="status" value="status">Resolved
+         <input type="radio" name="status" value="status">Pending</td>
+         
        </tr>
 
        <tr>
@@ -33,13 +37,17 @@
          <td>Printer</td>
          <td><input type="radio" name="approve1" value="approve">Approve
          <input type="radio" name="approve1" value="reject">Reject</td>
+         <td><input type="radio" name="status1" value="status">Resolved
+         <input type="radio" name="status1" value="status">Pending</td>
        </tr>
 
        <tr>
          <td>Dorothy Kabarozi</td>
          <td>Need pens</td>
          <td><input type="radio" name="approve2" value="approve">Approve
-         <input type="radio" name="approve" value="reject">Reject</td>
+         <input type="radio" name="approve2" value="reject">Reject</td>
+         <td><input type="radio" name="status2" value="status">Resolved
+         <input type="radio" name="status2" value="status">Pending</td>
        </tr>
 
     </table>
