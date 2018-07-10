@@ -11,3 +11,7 @@ h1 {
     background-color: rgb(2, 2, 8);
 }
 
+th.employee-table {
+    text-align: left;
+}
+

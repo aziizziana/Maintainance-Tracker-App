@@ -1,0 +1,7 @@
+requests = {['Employee': 'Aziiz Ziana','Complaint/Request': 'Computer', 'Action': 'Approve', 'Status': 'Resolved'],
+
+           ['Employee': 'Lorna Tumuhairwe','Complaint/Request':'Printer', 'Action': 'Approve', 'Status':'Resolved'],
+
+           ['Employee': 'Dorothy Kabarozi','Complaint/Request':'Need pens', 'Action': 'Approve', 'Status':'Resolved']
+}
+requests.Employee
